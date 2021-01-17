@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="viewport" content="width=device-width"/>
+<title>College Student Section Management</title>
+<!-- STYLES & JQUERY 
+================================================== -->
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/icons.css"/>
+<link rel="stylesheet" type="text/css" href="css/slider.css"/>
+<link rel="stylesheet" type="text/css" href="css/skinblue.css"/><!-- change skin color -->
+<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+<script src="js/jquery-1.9.0.min.js"></script><!-- the rest of the scripts at the bottom of the document -->
+</head>
+<style>
+.title
+{
+	margin-left:23px;
+	margin-top: 20px;
+	width: 500px;
+	top: 55px;
+	color: black;
+	font-size: 38px;
+	line-height: 26px;
+	height: 80px;
+	overflow: hidden;
+	font-family:sans-serif;
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+</style>
+<body>
+<!-- TOP LOGO & MENU
+================================================== -->
+<div class="grid">
+	<div class="row space-bot">
+		<!--Logo-->
+		<div class="c4">
+			<header class="title" style="width:800px;margin-left:-30px;"><b>College Student Section Management</b></header>
+		</div>
+		<!--Menu-->
+		<div class="c8">
+			<nav id="topNav">
+			<ul id="responsivemenu">
+				<li class="active"><a href="index.html"><i class="icon-home homeicon"></i><span class="showmobile">Home</span></a></li>
+				<li><a href="admin.jsp">Admin</a></li>
+				
+				<li><a href="student.jsp">Student</a></li>				
+				
+				
+			</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<div class="undermenuarea">
+	<div class="boxedshadow">
+	</div>
+	<!-- SLIDER AREA
+	================================================== -->
+	<div id="da-slider" class="da-slider">
+		<!--Slide 1-->
+		<div class="da-slide">
+			<h2> </h2>
+			<p></p>
+			
+			<div class="da-img">
+				<img src="images/ss.jpg" width="300px;" height="350px;">
+			</div>
+		</div>
+		<!--Slide 2-->
+		<div class="da-slide">
+			<h2></h2>
+			<p></p>
+			
+			<div class="da-img">
+				<img src="images/gp3.jpg" width="300px;" height="350px;">
+			</div>
+		</div>
+		<!--Slide 3-->
+		<div class="da-slide">
+			<h2> </h2>
+			<p></p>
+			
+			<div class="da-img">
+				<img src="images/gp.jpg" width="300px;" height="350px;">
+			</div>
+		</div>
+		<nav class="da-arrows">
+		<span class="da-arrows-prev"></span>
+		<span class="da-arrows-next"></span>
+		</nav>
+	</div>
+</div>
+<!-- UNDER SLIDER - BLACK AREA
+================================================== -->
+<div class="undersliderblack">
+	<div class="grid">
+		<div class="row space-bot">
+			
+		</div>
+	</div>
+</div>
+<div class="shadowunderslider">
+</div>
+<!-- START content area
+================================================== -->
+<div class="grid">
+	
+	<!-- SHOWCASE
+	================================================== -->
+	
+	
+	<!-- CALL TO ACTION 
+	================================================== -->
+	<div class="row space-bot">
+		
+	</div>
+</div><!-- end grid -->
+
+<!-- FOOTER
+================================================== -->
+<div id="wrapfooter">
+	<div class="grid">
+		
+	</div>
+</div>
+<!-- copyright area -->
+
+<!-- END CONTENT AREA -->
+<!-- JAVASCRIPTS
+================================================== -->
+<!-- all -->
+<script src="js/modernizr-latest.js"></script>
+
+<!-- menu & scroll to top -->
+<script src="js/common.js"></script>
+
+<!-- slider -->
+<script src="js/jquery.cslider.js"></script>
+
+<!-- cycle -->
+<script src="js/jquery.cycle.js"></script>
+
+<!-- carousel items -->
+<script src="js/jquery.carouFredSel-6.0.3-packed.js"></script>
+
+<!-- twitter -->
+<script src="js/jquery.tweet.js"></script>
+
+<!-- Call Showcase - change 4 from min:4 and max:4 to the number of items you want visible -->
+<script type="text/javascript">
+$(window).load(function(){			
+			$('#recent-projects').carouFredSel({
+				responsive: true,
+				width: '100%',
+				auto: true,
+				circular	: true,
+				infinite	: false,
+				prev : {
+					button		: "#car_prev",
+					key			: "left",
+						},
+				next : {
+					button		: "#car_next",
+					key			: "right",
+							},
+				swipe: {
+					onMouse: true,
+					onTouch: true
+					},
+				scroll : 2000,
+				items: {
+					visible: {
+						min: 4,
+						max: 4
+					}
+				}
+			});
+		});	
+</script>
+
+<!-- Call opacity on hover images from carousel-->
+<script type="text/javascript">
+$(document).ready(function(){
+    $("img.imgOpa").hover(function() {
+      $(this).stop().animate({opacity: "0.6"}, 'slow');
+    },
+    function() {
+      $(this).stop().animate({opacity: "1.0"}, 'slow');
+    });
+  });
+</script>
+</body>
+</html>

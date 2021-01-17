@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/activation.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/annotations-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/catalina-ant.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/catalina-ha.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/catalina-tribes.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/catalina.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/commons-beanutils-1.7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/commons-collections-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/commons-dbcp-1.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/commons-digester-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/commons-fileupload-1.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/commons-io-1.3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/commons-logging-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/commons-pool-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/cos.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/dsn.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/el-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/freemarker-2.3.13.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/imap.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jasper-el.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jasper-jdt.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jasper.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jcommon-1.0.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jcommon-1.0.17-javadoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jcommon.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jfreechart-1.0.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jfreechart.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/json-lib-2.3-jdk15.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jsp-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/junit-3.8.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/log4j-1.2.14.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/mail-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/mail.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/mailapi.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/multipartrequest.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/mysql-connector-java-3.1.14-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/mysql-connector-java-5.0.4-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/mysql-connector-java-5.0.6-bundle.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/mysql-connector-java-5.0.6-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/mysql-connector-java-5.0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/ognl-2.6.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/pager-taglib.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/poi-2.5.1-final-20040804.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/poi-contrib-2.5.1-final-20040804.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/poi-scratchpad-2.5.1-final-20040804.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/pop3.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/smtp.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-test-2.5.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/struts2-convention-plugin-2.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/struts2-core-2.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/struts2-json-plugin-2.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/struts2-tiles-plugin-2.1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/tiles-api-2.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/tiles-compat-2.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/tiles-core-2.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/tiles-jsp-2.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/tiles-servlet-2.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/tomcat-coyote.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/tomcat-dbcp.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/tomcat-i18n-es.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/xwork-core-2.2.1.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
